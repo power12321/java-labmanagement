@@ -1,0 +1,330 @@
+23:44:57.371 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+23:45:01.043 [main] INFO  o.e.g.GatewayServerApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:45:03.079 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:45:03.082 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:45:11.295 [main] INFO  c.n.d.DiscoveryClient - [<init>,372] - Initializing Eureka in region us-east-1
+23:45:11.830 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+23:45:11.831 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+23:45:11.885 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+23:45:11.885 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+23:45:11.990 [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+23:45:12.310 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1007] - Disable delta property : false
+23:45:12.311 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1008] - Single vip registry refresh property : null
+23:45:12.311 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1009] - Force full registry fetch : false
+23:45:12.311 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1010] - Application is null : false
+23:45:12.311 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1011] - Registered Applications size is zero : true
+23:45:12.311 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1013] - Application version is -1: true
+23:45:12.311 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1097] - Getting all instance registry info from the eureka server
+23:45:12.372 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1106] - The response status is 200
+23:45:12.373 [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1321] - Starting heartbeat executor: renew interval is: 30
+23:45:12.375 [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:45:12.377 [main] INFO  c.n.d.DiscoveryClient - [<init>,492] - Discovery Client initialized at timestamp 1748533512376 with initial instances count: 2
+23:45:12.379 [main] INFO  c.n.d.DiscoveryClient - [notify,1355] - Saw local status change event StatusChangeEvent [timestamp=1748533512379, current=UP, previous=STARTING]
+23:45:12.380 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,873] - DiscoveryClient_GATEWAY-SERVICE/localhost:gateway-service:8030: registering service...
+23:45:12.402 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,882] - DiscoveryClient_GATEWAY-SERVICE/localhost:gateway-service:8030 - registration status: 204
+23:45:16.498 [main] INFO  o.e.g.GatewayServerApplication - [logStarted,61] - Started GatewayServerApplication in 21.097 seconds (JVM running for 21.992)
+23:45:16.502 [main] INFO  o.e.g.GatewayServerApplication - [main,18] - (♥◠‿◠)ﾉﾞ  网关服务启动成功：时间2025-05-29 23:45:16   ლ(´ڡ`ლ)ﾞ  
+
+23:48:52.261 [reactor-http-nio-2] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/login
+23:48:52.636 [reactor-http-nio-2] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: auth-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:48:52.703 [reactor-http-nio-2] INFO  c.n.u.c.ShutdownEnabledTimer - [<init>,58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-auth-service
+23:48:52.706 [reactor-http-nio-2] INFO  c.n.l.BaseLoadBalancer - [initWithConfig,197] - Client: auth-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:48:52.723 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer - [enableAndInitLearnNewServersFeature,222] - Using serverListUpdater PollingServerListUpdater
+23:48:52.794 [reactor-http-nio-2] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: auth-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:48:52.799 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer - [restOfInit,150] - DynamicServerListLoadBalancer for client auth-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-service,current list of Servers=[192.168.126.1:8035],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.126.1:8035;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@23b59008
+23:48:53.733 [PollingServerListUpdater-0] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: auth-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:50:12.324 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+23:51:52.596 [reactor-http-nio-4] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/login
+23:53:03.378 [Thread-55] INFO  c.n.l.PollingServerListUpdater - [run,53] - Shutting down the Executor Pool for PollingServerListUpdater
+23:53:03.379 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,873] - DiscoveryClient_GATEWAY-SERVICE/localhost:gateway-service:8030: registering service...
+23:53:03.389 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,882] - DiscoveryClient_GATEWAY-SERVICE/localhost:gateway-service:8030 - registration status: 204
+23:53:04.260 [SpringContextShutdownHook] INFO  c.n.u.c.ShutdownEnabledTimer - [cancel,67] - Shutdown hook removed for: NFLoadBalancer-PingTimer-auth-service
+23:53:04.260 [SpringContextShutdownHook] INFO  c.n.u.c.ShutdownEnabledTimer - [cancel,72] - Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:231)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:280)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:214)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:93)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:142)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+23:53:06.341 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,935] - Shutting down DiscoveryClient ...
+23:53:09.358 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,971] - Unregistering ...
+23:53:13.472 [SpringContextShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - [execute,93] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:142)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 more
+
+23:53:17.568 [SpringContextShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - [execute,84] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:142)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 43 more
+
+23:53:17.580 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,960] - Completed shut down of DiscoveryClient
+23:55:52.323 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+23:55:56.618 [main] INFO  o.e.g.GatewayServerApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:55:58.762 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:55:58.765 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:56:07.446 [main] INFO  c.n.d.DiscoveryClient - [<init>,372] - Initializing Eureka in region us-east-1
+23:56:08.019 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+23:56:08.019 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+23:56:08.068 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+23:56:08.068 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+23:56:08.163 [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+23:56:08.504 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1007] - Disable delta property : false
+23:56:08.505 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1008] - Single vip registry refresh property : null
+23:56:08.505 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1009] - Force full registry fetch : false
+23:56:08.505 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1010] - Application is null : false
+23:56:08.505 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1011] - Registered Applications size is zero : true
+23:56:08.505 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1013] - Application version is -1: true
+23:56:08.505 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1097] - Getting all instance registry info from the eureka server
+23:56:08.557 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1106] - The response status is 200
+23:56:08.558 [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1321] - Starting heartbeat executor: renew interval is: 30
+23:56:08.559 [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:56:08.562 [main] INFO  c.n.d.DiscoveryClient - [<init>,492] - Discovery Client initialized at timestamp 1748534168562 with initial instances count: 1
+23:56:08.564 [main] INFO  c.n.d.DiscoveryClient - [notify,1355] - Saw local status change event StatusChangeEvent [timestamp=1748534168564, current=UP, previous=STARTING]
+23:56:08.565 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,873] - DiscoveryClient_GATEWAY-SERVICE/localhost:gateway-service:8030: registering service...
+23:56:08.591 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,882] - DiscoveryClient_GATEWAY-SERVICE/localhost:gateway-service:8030 - registration status: 204
+23:56:12.223 [main] INFO  o.e.g.GatewayServerApplication - [logStarted,61] - Started GatewayServerApplication in 22.025 seconds (JVM running for 22.901)
+23:56:12.227 [main] INFO  o.e.g.GatewayServerApplication - [main,18] - (♥◠‿◠)ﾉﾞ  网关服务启动成功：时间2025-05-29 23:56:12   ლ(´ڡ`ლ)ﾞ  
+
+23:56:38.498 [reactor-http-nio-2] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/login
+23:56:38.670 [reactor-http-nio-2] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: auth-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:56:38.683 [reactor-http-nio-2] INFO  c.n.u.c.ShutdownEnabledTimer - [<init>,58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-auth-service
+23:56:38.684 [reactor-http-nio-2] INFO  c.n.l.BaseLoadBalancer - [initWithConfig,197] - Client: auth-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:56:38.687 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer - [enableAndInitLearnNewServersFeature,222] - Using serverListUpdater PollingServerListUpdater
+23:56:38.700 [reactor-http-nio-2] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: auth-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:56:38.701 [reactor-http-nio-2] INFO  c.n.l.DynamicServerListLoadBalancer - [restOfInit,150] - DynamicServerListLoadBalancer for client auth-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=auth-service,current list of Servers=[192.168.126.1:8035],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.126.1:8035;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4a40cf22
+23:56:39.337 [reactor-http-nio-4] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/borrowed
+23:56:39.341 [reactor-http-nio-5] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+23:56:39.572 [reactor-http-nio-4] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: device-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:56:39.573 [reactor-http-nio-4] INFO  c.n.u.c.ShutdownEnabledTimer - [<init>,58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-device-service
+23:56:39.573 [reactor-http-nio-4] INFO  c.n.l.BaseLoadBalancer - [initWithConfig,197] - Client: device-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=device-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:56:39.574 [reactor-http-nio-4] INFO  c.n.l.DynamicServerListLoadBalancer - [enableAndInitLearnNewServersFeature,222] - Using serverListUpdater PollingServerListUpdater
+23:56:39.575 [reactor-http-nio-4] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: device-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:56:39.575 [reactor-http-nio-4] INFO  c.n.l.DynamicServerListLoadBalancer - [restOfInit,150] - DynamicServerListLoadBalancer for client device-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=device-service,current list of Servers=[192.168.126.1:8040],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.126.1:8040;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5a7d4841
+23:56:39.693 [PollingServerListUpdater-0] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: auth-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:56:40.586 [PollingServerListUpdater-1] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: device-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:56:49.905 [reactor-http-nio-6] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/updateReviewStatus?userId=21&status=0
+23:56:49.988 [reactor-http-nio-7] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+23:57:06.100 [reactor-http-nio-8] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+23:57:06.846 [reactor-http-nio-9] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+23:57:09.071 [reactor-http-nio-10] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:57:22.660 [reactor-http-nio-11] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:57:24.887 [reactor-http-nio-12] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:57:26.291 [reactor-http-nio-13] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:57:31.537 [reactor-http-nio-14] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/page?current=1&size=5
+23:57:42.028 [reactor-http-nio-15] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:57:42.034 [reactor-http-nio-16] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:57:42.092 [reactor-http-nio-15] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: schedule-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:57:42.096 [reactor-http-nio-15] INFO  c.n.u.c.ShutdownEnabledTimer - [<init>,58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-schedule-service
+23:57:42.097 [reactor-http-nio-15] INFO  c.n.l.BaseLoadBalancer - [initWithConfig,197] - Client: schedule-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=schedule-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:57:42.099 [reactor-http-nio-15] INFO  c.n.l.DynamicServerListLoadBalancer - [enableAndInitLearnNewServersFeature,222] - Using serverListUpdater PollingServerListUpdater
+23:57:42.103 [reactor-http-nio-15] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: schedule-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:57:42.105 [reactor-http-nio-15] INFO  c.n.l.DynamicServerListLoadBalancer - [restOfInit,150] - DynamicServerListLoadBalancer for client schedule-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=schedule-service,current list of Servers=[192.168.126.1:8032],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.126.1:8032;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@27d89d50
+23:57:42.208 [reactor-http-nio-16] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: course-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:57:42.212 [reactor-http-nio-16] INFO  c.n.u.c.ShutdownEnabledTimer - [<init>,58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-course-service
+23:57:42.212 [reactor-http-nio-16] INFO  c.n.l.BaseLoadBalancer - [initWithConfig,197] - Client: course-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=course-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:57:42.214 [reactor-http-nio-16] INFO  c.n.l.DynamicServerListLoadBalancer - [enableAndInitLearnNewServersFeature,222] - Using serverListUpdater PollingServerListUpdater
+23:57:42.217 [reactor-http-nio-16] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: course-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:57:42.218 [reactor-http-nio-16] INFO  c.n.l.DynamicServerListLoadBalancer - [restOfInit,150] - DynamicServerListLoadBalancer for client course-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=course-service,current list of Servers=[192.168.126.1:8031],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.126.1:8031;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@6c182cf1
+23:57:42.722 [reactor-http-nio-17] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/page?current=1&size=5
+23:57:43.111 [PollingServerListUpdater-0] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: schedule-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:57:43.218 [PollingServerListUpdater-1] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: course-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:57:52.136 [reactor-http-nio-18] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:57:52.136 [reactor-http-nio-19] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:08.468 [reactor-http-nio-20] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/page?current=1&size=5
+23:58:12.876 [reactor-http-nio-22] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:12.876 [reactor-http-nio-21] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:58:15.506 [reactor-http-nio-23] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:15.506 [reactor-http-nio-24] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:58:15.507 [reactor-http-nio-25] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+23:58:20.132 [reactor-http-nio-26] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:58:20.133 [reactor-http-nio-27] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:20.989 [reactor-http-nio-28] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:20.990 [reactor-http-nio-29] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:58:20.990 [reactor-http-nio-30] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+23:58:24.373 [reactor-http-nio-31] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:58:24.374 [reactor-http-nio-32] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:27.029 [reactor-http-nio-1] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:27.030 [reactor-http-nio-2] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:58:27.042 [reactor-http-nio-3] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+23:58:30.010 [reactor-http-nio-4] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:58:30.014 [reactor-http-nio-5] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:44.133 [reactor-http-nio-6] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+23:58:44.133 [reactor-http-nio-8] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:58:44.133 [reactor-http-nio-7] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:58:50.351 [reactor-http-nio-9] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/echartTop10
+23:58:50.407 [reactor-http-nio-10] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/teacherEchartTop10
+23:58:58.050 [reactor-http-nio-11] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:59:00.540 [reactor-http-nio-12] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/echartTop10
+23:59:00.593 [reactor-http-nio-13] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/teacherEchartTop10
+23:59:15.584 [reactor-http-nio-14] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:59:20.005 [reactor-http-nio-15] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+23:59:23.779 [reactor-http-nio-16] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:59:33.413 [reactor-http-nio-17] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:59:38.126 [reactor-http-nio-18] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:59:39.104 [reactor-http-nio-19] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:59:40.528 [reactor-http-nio-20] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+23:59:42.820 [reactor-http-nio-21] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+23:59:44.636 [reactor-http-nio-22] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/page?current=1&size=5
+23:59:50.998 [reactor-http-nio-23] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+23:59:50.999 [reactor-http-nio-24] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:59:56.891 [reactor-http-nio-26] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+23:59:56.891 [reactor-http-nio-25] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+23:59:56.891 [reactor-http-nio-27] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage

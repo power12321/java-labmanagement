@@ -1,0 +1,10 @@
+00:00:30.558 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 4ms
+00:01:30.570 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 11ms
+00:02:30.586 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 15ms
+00:03:30.591 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 3ms
+00:04:30.593 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 2ms
+00:05:30.595 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 1ms
+00:06:30.597 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 0ms
+00:07:30.609 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 11ms
+00:08:30.484 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [updateRenewalThreshold,552] - Current renewal threshold is : 13
+00:08:30.624 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 13ms

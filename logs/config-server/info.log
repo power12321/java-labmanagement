@@ -1,0 +1,2 @@
+00:03:48.699 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+00:08:48.723 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration

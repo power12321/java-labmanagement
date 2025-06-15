@@ -1,0 +1,21 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+  profiles:
+    active: native
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/       # 本地部署使用localhost,eureka:8761中的eureka为实际容器名
+  instance:
+    prefer-ip-address: true #是否将ip注册到注册中心
+logging:
+  level:
+    org.springframework.cloud.config.client: DEBUG

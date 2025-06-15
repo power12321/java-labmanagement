@@ -1,0 +1,108 @@
+23:42:17.170 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+23:42:18.871 [main] INFO  o.e.e.EurekaServerApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:42:19.405 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8761"]
+23:42:19.405 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:42:19.405 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.43]
+23:42:19.406 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+23:42:19.414 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:42:19.415 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:42:19.417 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+23:42:19.520 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:42:19.591 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:42:19.596 [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6b4fc2d1
+23:42:19.790 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - [_initiate,815] - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+23:42:19.819 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+23:42:19.819 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+23:42:19.866 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+23:42:19.867 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+23:42:20.011 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:42:23.430 [main] INFO  c.n.d.DiscoveryClient - [<init>,372] - Initializing Eureka in region us-east-1
+23:42:23.431 [main] INFO  c.n.d.DiscoveryClient - [<init>,375] - Client configured to neither register nor query for data.
+23:42:23.447 [main] INFO  c.n.d.DiscoveryClient - [<init>,390] - Discovery Client initialized at timestamp 1748533343444 with initial instances count: 0
+23:42:23.520 [main] INFO  c.n.e.DefaultEurekaServerContext - [initialize,66] - Initializing ...
+23:42:23.563 [main] INFO  c.n.e.r.AbstractInstanceRegistry - [initRemoteRegionRegistry,153] - Finished initializing remote region registries. All known remote regions: []
+23:42:23.566 [main] INFO  c.n.e.DefaultEurekaServerContext - [initialize,73] - Initialized
+23:42:23.722 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8761"]
+23:42:23.766 [Thread-27] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [openForTraffic,244] - Got 1 instances from neighboring DS node
+23:42:23.766 [Thread-27] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [openForTraffic,245] - Renew threshold is: 1
+23:42:23.767 [Thread-27] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [openForTraffic,256] - Changing status to UP
+23:42:27.920 [main] INFO  o.e.e.EurekaServerApplication - [logStarted,61] - Started EurekaServerApplication in 12.495 seconds (JVM running for 13.388)
+23:42:27.944 [main] INFO  o.e.e.EurekaServerApplication - [main,18] - (♥◠‿◠)ﾉﾞ  注册中心服务启动成功：时间2025-05-29 23:42:27   ლ(´ڡ`ლ)ﾞ  
+
+23:42:28.313 [RMI TCP Connection(1)-192.168.29.1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:43:23.778 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 0ms
+23:44:22.691 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance CONFIG-SERVICE/localhost:config-service:8762 with status UP (replication=false)
+23:44:23.784 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 5ms
+23:44:59.232 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance AUTH-SERVICE/localhost:auth-service:8035 with status UP (replication=false)
+23:45:05.615 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance DEVICE-SERVICE/localhost:device-service:8040 with status UP (replication=false)
+23:45:12.402 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance GATEWAY-SERVICE/localhost:gateway-service:8030 with status UP (replication=false)
+23:45:18.296 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance SCHEDULE-SERVICE/localhost:schedule-service:8032 with status UP (replication=false)
+23:45:23.790 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 4ms
+23:45:23.880 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance COURSE-SERVICE/localhost:course-service:8031 with status UP (replication=false)
+23:45:29.261 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance ENROLLMENT-SERVICE/localhost:enrollment-service:8033 with status UP (replication=false)
+23:46:23.792 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 0ms
+23:47:23.799 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 6ms
+23:48:23.809 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 8ms
+23:49:23.812 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 1ms
+23:50:23.826 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 14ms
+23:51:23.838 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 9ms
+23:52:23.843 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 4ms
+23:52:42.642 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance CONFIG-SERVICE/localhost:config-service:8762 with status DOWN (replication=false)
+23:52:46.002 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - [internalCancel,328] - Cancelled instance CONFIG-SERVICE/localhost:config-service:8762 (replication=false)
+23:53:02.609 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance CONFIG-SERVICE/localhost:config-service:8762 with status UP (replication=false)
+23:53:03.359 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance AUTH-SERVICE/localhost:auth-service:8035 with status DOWN (replication=false)
+23:53:03.359 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance SCHEDULE-SERVICE/localhost:schedule-service:8032 with status DOWN (replication=false)
+23:53:03.359 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance ENROLLMENT-SERVICE/localhost:enrollment-service:8033 with status DOWN (replication=false)
+23:53:03.374 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance COURSE-SERVICE/localhost:course-service:8031 with status DOWN (replication=false)
+23:53:03.389 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance GATEWAY-SERVICE/localhost:gateway-service:8030 with status DOWN (replication=false)
+23:53:03.405 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance DEVICE-SERVICE/localhost:device-service:8040 with status DOWN (replication=false)
+23:53:04.167 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance CONFIG-SERVICE/localhost:config-service:8762 with status DOWN (replication=false)
+23:53:04.387 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - [shutdown,79] - Shutting down ...
+23:53:04.395 [SpringContextShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - [shutdown,84] - Shut down
+23:53:04.401 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,935] - Shutting down DiscoveryClient ...
+23:53:04.402 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,960] - Completed shut down of DiscoveryClient
+23:53:24.376 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+23:53:26.103 [main] INFO  o.e.e.EurekaServerApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:53:26.638 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8761"]
+23:53:26.638 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:53:26.638 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.43]
+23:53:26.639 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+23:53:26.639 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:53:26.639 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:53:26.642 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+23:53:26.745 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:53:26.809 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:53:26.815 [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6b4fc2d1
+23:53:27.018 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - [_initiate,815] - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+23:53:27.046 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+23:53:27.046 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+23:53:27.094 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+23:53:27.094 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+23:53:27.240 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:53:30.435 [main] INFO  c.n.d.DiscoveryClient - [<init>,372] - Initializing Eureka in region us-east-1
+23:53:30.436 [main] INFO  c.n.d.DiscoveryClient - [<init>,375] - Client configured to neither register nor query for data.
+23:53:30.438 [main] INFO  c.n.d.DiscoveryClient - [<init>,390] - Discovery Client initialized at timestamp 1748534010438 with initial instances count: 0
+23:53:30.453 [main] INFO  c.n.e.DefaultEurekaServerContext - [initialize,66] - Initializing ...
+23:53:30.462 [main] INFO  c.n.e.r.AbstractInstanceRegistry - [initRemoteRegionRegistry,153] - Finished initializing remote region registries. All known remote regions: []
+23:53:30.463 [main] INFO  c.n.e.DefaultEurekaServerContext - [initialize,73] - Initialized
+23:53:30.495 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8761"]
+23:53:30.503 [Thread-26] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [openForTraffic,244] - Got 1 instances from neighboring DS node
+23:53:30.503 [Thread-26] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [openForTraffic,245] - Renew threshold is: 1
+23:53:30.503 [Thread-26] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - [openForTraffic,256] - Changing status to UP
+23:53:32.026 [main] INFO  o.e.e.EurekaServerApplication - [logStarted,61] - Started EurekaServerApplication in 9.488 seconds (JVM running for 10.386)
+23:53:32.032 [main] INFO  o.e.e.EurekaServerApplication - [main,18] - (♥◠‿◠)ﾉﾞ  注册中心服务启动成功：时间2025-05-29 23:53:32   ლ(´ڡ`ლ)ﾞ  
+
+23:53:32.082 [RMI TCP Connection(2)-192.168.29.1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:53:48.836 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance CONFIG-SERVICE/localhost:config-service:8762 with status UP (replication=false)
+23:54:30.516 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 0ms
+23:55:30.520 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 2ms
+23:56:02.411 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance AUTH-SERVICE/localhost:auth-service:8035 with status UP (replication=false)
+23:56:04.122 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance DEVICE-SERVICE/localhost:device-service:8040 with status UP (replication=false)
+23:56:06.313 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance ENROLLMENT-SERVICE/localhost:enrollment-service:8033 with status UP (replication=false)
+23:56:08.589 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance GATEWAY-SERVICE/localhost:gateway-service:8030 with status UP (replication=false)
+23:56:09.572 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance COURSE-SERVICE/localhost:course-service:8031 with status UP (replication=false)
+23:56:12.281 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - [register,266] - Registered instance SCHEDULE-SERVICE/localhost:schedule-service:8032 with status UP (replication=false)
+23:56:30.527 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 7ms
+23:57:30.529 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 1ms
+23:58:30.538 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 7ms
+23:59:30.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - [run,1247] - Running the evict task with compensationTime 14ms

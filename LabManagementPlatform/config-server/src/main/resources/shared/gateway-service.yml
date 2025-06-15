@@ -1,0 +1,85 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    #password: 123456
+    database: 4
+#  zipkin:
+#    base-url: http://localhost:9411
+#  sleuth:
+#    sampler:
+#      # 采样率值介于0到1之间，1表示全部采集
+#      probability: 1.0
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true
+      routes:
+        # 认证模块
+        - id: auth-service
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
+        # 实验室管理模块
+        - id: course-service
+          uri: lb://course-service
+          predicates:
+            - Path=/course/**
+          filters:
+            - StripPrefix=1
+        # 排课,实验发布与提交模块
+        - id: schedule-service
+          uri: lb://schedule-service
+          predicates:
+            - Path=/schedule/**
+          filters:
+            - StripPrefix=1
+        # 选课和评价模块
+        - id: enrollment-service
+          uri: lb://enrollment-service
+          predicates:
+            - Path=/enrollment/**
+          filters:
+            - StripPrefix=1
+        # 实验设备模块
+        - id: device-service
+          uri: lb://device-service
+          predicates:
+            - Path=/device/**
+          filters:
+            - StripPrefix=1
+
+# 安全配置
+security:
+  # 防止XSS攻击
+  xss:
+    enabled: true
+    excludeUrls:
+  # 不校验白名单
+  ignore:
+    whites:
+      - /auth/login
+      - /auth/register
+      - /schedule/queryCollegeOrMajorList
+# JWT配置
+auth:
+  secret: 0xx6znv3ozvh9fum
+# mybatis-plus配置
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath*:**/*Mapper.xml
+  configuration:
+    cache-enabled: true
+    use-generated-keys: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    default-executor-type: SIMPLE
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+  type-aliases-package: org.example.**.domain

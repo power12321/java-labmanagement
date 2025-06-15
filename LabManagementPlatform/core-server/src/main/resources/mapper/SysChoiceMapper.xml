@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.core.mapper.SysChoiceMapper">
+
+    <resultMap id="BaseResultMap" type="org.example.core.domain.SysChoice">
+            <id property="choiceId" column="choice_id" jdbcType="BIGINT"/>
+            <result property="studentId" column="student_id" jdbcType="BIGINT"/>
+            <result property="courseId" column="course_id" jdbcType="BIGINT"/>
+            <result property="score" column="score" jdbcType="INTEGER"/>
+            <result property="evaluate" column="evaluate" jdbcType="VARCHAR"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        choice_id,student_id,course_id,
+        score,evaluate,create_time,
+        update_time
+    </sql>
+
+    <select id="countElectiveCourses" resultType="long">
+        SELECT COUNT(*)
+        FROM sys_course
+        WHERE course_id IN
+        <foreach collection="courseIds" item="courseId" open="(" separator="," close=")">
+            #{courseId}
+        </foreach>
+        AND type = 1
+    </select>
+</mapper>

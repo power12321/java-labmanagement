@@ -1,0 +1,44 @@
+1. mysql和redis镜像拉取
+docker pull mysql:8.0.41
+docker pull redis:5.0.14
+
+2. 启动 MySQL（创建 lab_management 库，root 密码 2004122）
+docker run -d \
+  --name my-mysql \
+  --network host \
+  -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=2004122 \
+  -e MYSQL_DATABASE=lab_management \
+  -v /srv/docker/mysql/data:/var/lib/mysql \
+  mysql:8.0.41
+
+3. 启动 Redis（无密码，持久化 AOF）
+docker run -d \
+  --name my-redis \
+  --network host \
+  -p 6379:6379 \
+  -v /srv/docker/redis/data:/data \
+  redis:5.0.14 \
+  redis-server --appendonly yes
+
+
+4. 将 SQL 文件的内容通过 docker exec -i 交给容器里的 mysql 客户端执行
+cat ~/Desktop/lab_management.sql | docker exec -i my-mysql \
+  mysql -uroot -p2004122 lab_management
+
+5. 进入容器并登录 MySQL客户端：
+docker exec -it my-mysql mysql --default-character-set=utf8mb4 -uroot -p2004122 lab_management
+
+6. 在 MySQL 客户端里执行几条查询，比如：
+-- 查看 sys_choice 表的记录数
+SELECT COUNT(*) FROM sys_choice;
+
+-- 若有数据，查看前几行内容
+SELECT * FROM sys_choice LIMIT 5;
+
+-- 查看其他表
+SHOW TABLES;
+SELECT COUNT(*) FROM sys_user;
+
+
+ 	

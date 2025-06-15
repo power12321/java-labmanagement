@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.labserver.mapper.SysCourseMapper">
+
+    <resultMap id="BaseResultMap" type="org.example.labserver.model.domain.SysCourse">
+            <id property="courseId" column="course_id" jdbcType="BIGINT"/>
+            <result property="number" column="number" jdbcType="VARCHAR"/>
+            <result property="courseName" column="course_name" jdbcType="VARCHAR"/>
+            <result property="college" column="college" jdbcType="VARCHAR"/>
+            <result property="major" column="major" jdbcType="VARCHAR"/>
+            <result property="period" column="period" jdbcType="VARCHAR"/>
+            <result property="credits" column="credits" jdbcType="VARCHAR"/>
+            <result property="type" column="type" jdbcType="INTEGER"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        course_id,number,course_name,
+        college,major,period,
+        credits,type,create_time,
+        update_time
+    </sql>
+
+    <select id="SelectScoreAndEvaluateList" parameterType="java.lang.Long" resultType="com.alibaba.fastjson.JSONObject">
+        select
+            sc.score,
+            sc.evaluate,
+            sc.create_time,
+            st.student_id,
+            su.name
+        from sys_choice sc
+                 left join sys_student st on sc.student_id = st.student_id
+                 left join sys_user su on st.user_id = su.user_id
+        where sc.course_id = #{courseId}
+          and (sc.score is not null or sc.evaluate is not null)
+    </select>
+
+    <select id="SelectScheduleOne" parameterType="java.lang.Long" resultType="com.alibaba.fastjson.JSONObject">
+        select
+           *
+        from sys_schedule sc
+        where sc.course_id = #{courseId}
+    </select>
+
+
+</mapper>

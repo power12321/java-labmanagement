@@ -1,0 +1,434 @@
+00:01:06.234 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+00:03:13.294 [http-nio-8033-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:03:13.560 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@70041182, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@70041182}
+00:03:13.561 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:03:13.570 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:03:13.588 [http-nio-8033-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+00:03:14.210 [http-nio-8033-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+00:03:14.351 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:03:14.352 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:03:14.353 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:03:14.378 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5316e2c0, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5316e2c0}
+00:03:14.379 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:14.381 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:03:14.391 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6c76004e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6c76004e}
+00:03:14.392 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:14.393 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:03:14.401 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:03:14.401 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:03:14.401 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:03:14.408 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@56fbdcca, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@56fbdcca}
+00:03:14.409 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:14.411 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:03:14.419 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2267c476, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2267c476}
+00:03:14.419 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:14.420 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:03:34.391 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5cc22d1f, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5cc22d1f}
+00:03:34.400 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:03:34.401 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:03:34.411 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:03:34.412 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:03:34.413 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:03:34.422 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1348c624, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1348c624}
+00:03:34.423 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:34.423 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:03:34.435 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a317e07, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a317e07}
+00:03:34.436 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:34.436 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:03:34.441 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:03:34.441 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:03:34.442 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:03:34.449 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@18fcd6bd, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@18fcd6bd}
+00:03:34.449 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:34.449 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:03:34.461 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@73f0cf7c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@73f0cf7c}
+00:03:34.462 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:34.463 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:01.444 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2914e569, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2914e569}
+00:04:01.444 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectCount
+00:04:01.445 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectCount:SELECT COUNT( * ) FROM sys_course WHERE (course_id IN (21) AND type = 1)
+00:04:01.454 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6d4464fd, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6d4464fd}
+00:04:01.455 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:04:01.455 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 6 AND course_id IN (21))
+00:04:01.466 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = SysChoice(choiceId=null, studentId=6, courseId=21, score=null, evaluate=null, uploadResource=null)
+00:04:01.466 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.insert
+00:04:01.467 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.insert:INSERT INTO sys_choice ( student_id, course_id, create_time, update_time ) VALUES ( 6, 21, ,  )
+00:04:01.659 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@752495c3, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@752495c3}
+00:04:01.660 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:01.660 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:01.665 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:01.666 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:01.666 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:04:01.672 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62394389, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62394389}
+00:04:01.673 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:01.673 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:01.680 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@78f56cad, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@78f56cad}
+00:04:01.681 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:01.681 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:04:01.686 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:01.686 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:01.687 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:04:01.693 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5218497a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5218497a}
+00:04:01.694 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:01.695 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:04:01.702 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@48e5bfd9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@48e5bfd9}
+00:04:01.702 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:01.702 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:01.706 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:01.706 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:01.707 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:04:01.715 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2258bf0e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2258bf0e}
+00:04:01.716 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:01.717 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:01.722 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6fed00a9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6fed00a9}
+00:04:01.722 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:01.723 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:03.193 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7f1b8c00, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7f1b8c00}
+00:04:03.194 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectCount
+00:04:03.194 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectCount:SELECT COUNT( * ) FROM sys_course WHERE (course_id IN (20) AND type = 1)
+00:04:03.200 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5e097974, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5e097974}
+00:04:03.200 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:04:03.203 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 6 AND course_id IN (20))
+00:04:03.207 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,40] - parameter = SysChoice(choiceId=null, studentId=6, courseId=20, score=null, evaluate=null, uploadResource=null)
+00:04:03.207 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.insert
+00:04:03.208 [http-nio-8033-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.insert:INSERT INTO sys_choice ( student_id, course_id, create_time, update_time ) VALUES ( 6, 20, ,  )
+00:04:03.378 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2b7ba7ab, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2b7ba7ab}
+00:04:03.379 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:03.379 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:03.384 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:03.384 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:03.385 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:04:03.390 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@11f0c389, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@11f0c389}
+00:04:03.390 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.391 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:03.397 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7468e4d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7468e4d}
+00:04:03.398 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.398 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:04:03.406 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:03.407 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:03.407 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:04:03.413 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5d2eb858, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5d2eb858}
+00:04:03.413 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.414 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:04:03.419 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ba512fe, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ba512fe}
+00:04:03.419 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.420 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:03.423 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:03.424 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:03.424 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:04:03.428 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@41fe0f21, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@41fe0f21}
+00:04:03.429 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.429 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:03.435 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@41e64d20, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@41e64d20}
+00:04:03.436 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.436 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:03.440 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:03.441 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:03.441 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:04:03.446 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@68f787cf, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@68f787cf}
+00:04:03.446 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.447 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:03.451 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2331693c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2331693c}
+00:04:03.451 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:03.451 [http-nio-8033-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:05.007 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@506882ed, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@506882ed}
+00:04:05.008 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectCount
+00:04:05.008 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectCount:SELECT COUNT( * ) FROM sys_course WHERE (course_id IN (17) AND type = 1)
+00:04:05.014 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7c264f26, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7c264f26}
+00:04:05.015 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:04:05.015 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 6 AND course_id IN (17))
+00:04:05.018 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,40] - parameter = SysChoice(choiceId=null, studentId=6, courseId=17, score=null, evaluate=null, uploadResource=null)
+00:04:05.019 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.insert
+00:04:05.020 [http-nio-8033-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.insert:INSERT INTO sys_choice ( student_id, course_id, create_time, update_time ) VALUES ( 6, 17, ,  )
+00:04:05.195 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@343255de, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@343255de}
+00:04:05.195 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:05.196 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:05.200 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:05.201 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:05.202 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:04:05.206 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@24669287, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@24669287}
+00:04:05.207 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.207 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:05.213 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@75a75e2f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@75a75e2f}
+00:04:05.214 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.214 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:04:05.217 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:05.218 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:05.219 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:04:05.224 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2140f0ca, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2140f0ca}
+00:04:05.224 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.225 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:04:05.230 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4effee2c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4effee2c}
+00:04:05.230 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.230 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:05.234 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:05.235 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:05.235 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:04:05.240 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@11c5c412, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@11c5c412}
+00:04:05.241 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.241 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:05.246 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ab20a4d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ab20a4d}
+00:04:05.246 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.247 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:05.250 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:05.250 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:05.251 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:04:05.255 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5bc7b12b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5bc7b12b}
+00:04:05.256 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.256 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:05.261 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@36cd48a5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@36cd48a5}
+00:04:05.262 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.262 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:05.266 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:05.267 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:05.267 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=17 
+00:04:05.274 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3702026c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3702026c}
+00:04:05.275 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.275 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '3')
+00:04:05.280 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@617ac163, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@617ac163}
+00:04:05.280 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:05.280 [http-nio-8033-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '7')
+00:04:12.306 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@271e44b1, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@271e44b1}
+00:04:12.307 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:12.307 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:12.314 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:12.314 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:12.315 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:04:12.322 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@83d5d0c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@83d5d0c}
+00:04:12.322 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.323 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:12.327 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@60f5a319, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@60f5a319}
+00:04:12.327 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.328 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:04:12.331 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:12.331 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:12.331 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:04:12.334 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4f9a0937, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4f9a0937}
+00:04:12.334 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.335 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:04:12.338 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2b2b8c6c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2b2b8c6c}
+00:04:12.339 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.340 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:12.341 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:12.342 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:12.342 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:04:12.345 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@443eee27, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@443eee27}
+00:04:12.347 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.347 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:12.351 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3ffc99bc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3ffc99bc}
+00:04:12.351 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.352 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:12.354 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:12.355 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:12.355 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:04:12.358 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@35158722, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@35158722}
+00:04:12.358 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.359 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:12.362 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@39addc0a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@39addc0a}
+00:04:12.363 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.363 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:12.366 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:12.366 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:12.366 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=17 
+00:04:12.370 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5e84366c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5e84366c}
+00:04:12.370 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.371 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '3')
+00:04:12.373 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@653397f0, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@653397f0}
+00:04:12.374 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.374 [http-nio-8033-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '7')
+00:04:19.193 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@50cf8e1a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@50cf8e1a}
+00:04:19.194 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:19.195 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:19.200 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:19.201 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:19.201 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:04:19.206 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2ebc931a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2ebc931a}
+00:04:19.206 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.206 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:19.214 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f7d1ff1, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f7d1ff1}
+00:04:19.215 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.215 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:04:19.219 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:19.220 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:19.220 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:04:19.224 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2110e99b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2110e99b}
+00:04:19.224 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.225 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:04:19.229 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2aa24a7c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2aa24a7c}
+00:04:19.229 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.229 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:19.233 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:19.233 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:19.233 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:04:19.239 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3437ab8e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3437ab8e}
+00:04:19.239 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.240 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:19.245 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@501834c3, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@501834c3}
+00:04:19.245 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.246 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:19.249 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:19.250 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:19.250 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:04:19.254 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@24321c82, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@24321c82}
+00:04:19.254 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.254 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:19.260 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@57f0cff4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@57f0cff4}
+00:04:19.261 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.261 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:19.264 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:19.265 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:19.265 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=17 
+00:04:19.270 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2f3206bd, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2f3206bd}
+00:04:19.270 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.271 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '3')
+00:04:19.275 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@180f0161, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@180f0161}
+00:04:19.276 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.277 [http-nio-8033-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '7')
+00:04:23.359 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@46a3d09, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@46a3d09}
+00:04:23.360 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:23.361 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:23.367 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:23.367 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:23.368 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:04:23.372 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7ccefe9f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7ccefe9f}
+00:04:23.372 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.373 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:23.379 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@190e20fe, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@190e20fe}
+00:04:23.379 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.380 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:04:23.383 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:23.383 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:23.385 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:04:23.388 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@15dc778b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@15dc778b}
+00:04:23.389 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.389 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:04:23.392 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2f1b62b1, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2f1b62b1}
+00:04:23.393 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.393 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:04:23.396 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:23.397 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:23.397 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:04:23.400 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14dfb2c1, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14dfb2c1}
+00:04:23.400 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.402 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:23.407 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2959fa8c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2959fa8c}
+00:04:23.407 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.407 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:23.411 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:23.412 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:23.412 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:04:23.416 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5623176a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5623176a}
+00:04:23.416 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.416 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:04:23.420 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@579e596f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@579e596f}
+00:04:23.422 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.422 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:04:23.426 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:23.426 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:04:23.426 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=17 
+00:04:23.430 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@b3a8d36, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@b3a8d36}
+00:04:23.431 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.432 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '3')
+00:04:23.436 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@574ed81b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@574ed81b}
+00:04:23.436 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.436 [http-nio-8033-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '7')
+00:05:13.426 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper@1ffe5814, param1=null, et=null, param2=com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper@1ffe5814}
+00:05:13.426 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.update
+00:05:13.428 [http-nio-8033-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.update:UPDATE sys_choice SET score=5,evaluate='feedasdasdsadsa',upload_resource= WHERE (course_id = 20 AND student_id = 6)
+00:05:28.077 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@35abfbd4, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@35abfbd4}
+00:05:28.078 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:28.078 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:05:28.082 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:05:28.083 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:28.083 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:05:28.087 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5be12a00, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5be12a00}
+00:05:28.088 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.088 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:05:28.092 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7142150d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7142150d}
+00:05:28.092 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.092 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:05:28.095 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:05:28.095 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:28.096 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:05:28.099 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@34a20fd9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@34a20fd9}
+00:05:28.099 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.100 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:05:28.104 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7f5008c8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7f5008c8}
+00:05:28.104 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.105 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:05:28.108 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:05:28.108 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:28.108 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:05:28.111 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ee5932a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ee5932a}
+00:05:28.112 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.112 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:05:28.116 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6ffdc50, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6ffdc50}
+00:05:28.116 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.117 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:05:28.119 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:05:28.119 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:28.120 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:05:28.124 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7223d291, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7223d291}
+00:05:28.124 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.125 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:05:28.128 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@581202fa, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@581202fa}
+00:05:28.129 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.129 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:05:28.132 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:05:28.132 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:28.132 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=17 
+00:05:28.136 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ffe7784, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ffe7784}
+00:05:28.137 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.138 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '3')
+00:05:28.141 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3eeb6687, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3eeb6687}
+00:05:28.141 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:28.141 [http-nio-8033-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '7')
+00:05:29.259 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@147fbc2e, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@147fbc2e}
+00:05:29.260 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:29.261 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:05:29.267 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:05:29.268 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:29.268 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=22 
+00:05:29.272 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1425293a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1425293a}
+00:05:29.273 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.273 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:05:29.276 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@667ffae8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@667ffae8}
+00:05:29.277 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.277 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '6')
+00:05:29.279 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:05:29.280 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:29.280 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=16 
+00:05:29.284 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@60b8729d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@60b8729d}
+00:05:29.284 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.285 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '4')
+00:05:29.288 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@772b254d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@772b254d}
+00:05:29.288 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.289 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '10')
+00:05:29.291 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:05:29.292 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:29.292 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=21 
+00:05:29.295 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@58934a4c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@58934a4c}
+00:05:29.295 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.296 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:05:29.299 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@c65e453, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@c65e453}
+00:05:29.299 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.300 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:05:29.302 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:05:29.303 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:29.303 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=20 
+00:05:29.306 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@f8875f8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@f8875f8}
+00:05:29.307 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.307 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '2')
+00:05:29.310 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14fb863, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14fb863}
+00:05:29.311 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.311 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '5')
+00:05:29.313 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:05:29.313 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.enrollmentserver.mapper.CourseMapper.selectById
+00:05:29.314 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.enrollmentserver.mapper.CourseMapper.selectById:SELECT course_id,number,course_name,college,major,period,credits,type,create_time,update_time FROM sys_course WHERE course_id=17 
+00:05:29.317 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@51fc968a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@51fc968a}
+00:05:29.317 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.318 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college' AND dict_value = '3')
+00:05:29.321 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@61098c4c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@61098c4c}
+00:05:29.322 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.322 [http-nio-8033-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'major' AND dict_value = '7')
+00:06:06.254 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration

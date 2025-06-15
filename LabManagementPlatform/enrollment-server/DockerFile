@@ -1,0 +1,19 @@
+# 基础镜像
+FROM openjdk:8-jre
+
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+VOLUME /app/project/enrollment
+
+# 复制主机的 jar 包到容器中的应用目录
+COPY ./target/enrollment-server.jar /app/project/enrollment/enrollment-server.jar
+
+# 设置工作目录
+WORKDIR /app/project/enrollment
+
+# 容器启动执行命令
+ENTRYPOINT ["java","-Dfile.encoding=UTF-8","-jar", "enrollment-server.jar"]
+
+# 暴露端口号
+EXPOSE 8033

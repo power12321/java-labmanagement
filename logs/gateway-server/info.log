@@ -1,0 +1,119 @@
+00:00:01.730 [reactor-http-nio-29] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:00:01.729 [reactor-http-nio-28] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:00:06.392 [reactor-http-nio-32] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+00:00:06.391 [reactor-http-nio-30] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:00:06.392 [reactor-http-nio-31] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:00:22.790 [reactor-http-nio-1] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/echartTop10
+00:00:22.839 [reactor-http-nio-2] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/teacherEchartTop10
+00:00:29.422 [reactor-http-nio-3] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:01:08.519 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+00:02:58.890 [reactor-http-nio-4] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/userLogoff
+00:03:12.509 [reactor-http-nio-5] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/login
+00:03:12.877 [reactor-http-nio-6] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:03:12.879 [reactor-http-nio-7] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:03:13.019 [reactor-http-nio-8] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:03:13.083 [reactor-http-nio-8] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: enrollment-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+00:03:13.087 [reactor-http-nio-8] INFO  c.n.u.c.ShutdownEnabledTimer - [<init>,58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-enrollment-service
+00:03:13.089 [reactor-http-nio-8] INFO  c.n.l.BaseLoadBalancer - [initWithConfig,197] - Client: enrollment-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=enrollment-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+00:03:13.091 [reactor-http-nio-8] INFO  c.n.l.DynamicServerListLoadBalancer - [enableAndInitLearnNewServersFeature,222] - Using serverListUpdater PollingServerListUpdater
+00:03:13.095 [reactor-http-nio-8] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: enrollment-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+00:03:13.096 [reactor-http-nio-8] INFO  c.n.l.DynamicServerListLoadBalancer - [restOfInit,150] - DynamicServerListLoadBalancer for client enrollment-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=enrollment-service,current list of Servers=[192.168.126.1:8033],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.126.1:8033;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@d9b79b9
+00:03:14.104 [PollingServerListUpdater-0] INFO  c.n.c.ChainedDynamicProperty - [checkAndFlip,115] - Flipping property: enrollment-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+00:03:16.011 [reactor-http-nio-9] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:03:16.011 [reactor-http-nio-10] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByStudentId
+00:03:34.211 [reactor-http-nio-11] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:03:34.214 [reactor-http-nio-12] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:03:34.373 [reactor-http-nio-13] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:01.413 [reactor-http-nio-14] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/getChoiceByStudentId?courseIds=21
+00:04:01.507 [reactor-http-nio-15] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:04:01.645 [reactor-http-nio-16] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:03.182 [reactor-http-nio-17] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/getChoiceByStudentId?courseIds=20
+00:04:03.234 [reactor-http-nio-18] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:04:03.366 [reactor-http-nio-19] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:04.996 [reactor-http-nio-20] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/getChoiceByStudentId?courseIds=17
+00:04:05.051 [reactor-http-nio-21] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:04:05.185 [reactor-http-nio-22] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:10.154 [reactor-http-nio-24] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByStudentId
+00:04:10.155 [reactor-http-nio-23] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:12.171 [reactor-http-nio-25] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:12.174 [reactor-http-nio-26] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:04:12.294 [reactor-http-nio-27] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:17.347 [reactor-http-nio-28] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:17.347 [reactor-http-nio-29] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByStudentId
+00:04:19.022 [reactor-http-nio-30] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:19.022 [reactor-http-nio-31] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:04:19.180 [reactor-http-nio-32] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:19.961 [reactor-http-nio-1] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:19.966 [reactor-http-nio-2] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByStudentId
+00:04:23.223 [reactor-http-nio-3] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:23.224 [reactor-http-nio-4] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:04:23.349 [reactor-http-nio-5] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:04:43.879 [reactor-http-nio-6] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:04:43.879 [reactor-http-nio-7] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByStudentId
+00:05:13.388 [reactor-http-nio-8] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/insertScoreAndEvaluate
+00:05:13.456 [reactor-http-nio-9] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByStudentId
+00:05:27.952 [reactor-http-nio-11] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:05:27.952 [reactor-http-nio-10] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:05:28.069 [reactor-http-nio-12] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:05:28.596 [reactor-http-nio-13] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:05:29.136 [reactor-http-nio-14] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryCollegeOrMajorList
+00:05:29.137 [reactor-http-nio-15] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:05:29.249 [reactor-http-nio-16] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/enrollment/queryChoiceByStudentId
+00:05:31.237 [reactor-http-nio-17] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/userLogoff
+00:05:42.143 [reactor-http-nio-18] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/login
+00:05:42.395 [reactor-http-nio-19] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:05:42.397 [reactor-http-nio-20] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:05:42.398 [reactor-http-nio-21] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+00:05:44.904 [reactor-http-nio-22] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/page?current=1&size=5
+00:05:46.973 [reactor-http-nio-23] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/course/queryCourseByPage
+00:05:46.975 [reactor-http-nio-25] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+00:05:46.976 [reactor-http-nio-24] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:06:06.660 [reactor-http-nio-26] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/addOrUpdateSchedule
+00:06:06.934 [reactor-http-nio-27] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/queryScheduleByPage
+00:06:08.529 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+00:06:15.237 [reactor-http-nio-28] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/userLogoff
+00:06:22.231 [reactor-http-nio-29] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/login
+00:06:22.298 [reactor-http-nio-31] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:06:22.298 [reactor-http-nio-30] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/borrowed
+00:06:27.448 [reactor-http-nio-32] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:06:45.738 [reactor-http-nio-1] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:08:12.394 [reactor-http-nio-2] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+00:08:13.379 [reactor-http-nio-3] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:08:15.540 [reactor-http-nio-4] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:08:16.161 [reactor-http-nio-5] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:08:18.101 [reactor-http-nio-6] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/echartTop10
+00:08:18.148 [reactor-http-nio-7] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/schedule/teacherEchartTop10
+00:08:25.497 [reactor-http-nio-8] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+00:08:31.884 [reactor-http-nio-9] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+00:08:36.267 [reactor-http-nio-10] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:08:40.142 [reactor-http-nio-11] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+00:08:43.284 [reactor-http-nio-12] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:08:44.802 [reactor-http-nio-13] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+00:08:59.984 [reactor-http-nio-14] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/device/page?current=1&size=5
+00:09:00.579 [reactor-http-nio-15] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:09:01.272 [reactor-http-nio-16] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryStudentByPage
+00:09:14.763 [reactor-http-nio-17] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:09:16.932 [reactor-http-nio-18] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryReviewByPage
+00:09:17.948 [reactor-http-nio-19] INFO  o.e.g.f.AuthFilter - [filter,43] - request url:http://localhost:8030/auth/queryTeacherByPage
+00:09:20.532 [lettuce-nioEventLoop-5-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+00:09:20.658 [lettuce-eventExecutorLoop-3-27] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost/127.0.0.1:6379

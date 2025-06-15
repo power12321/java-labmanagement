@@ -1,0 +1,932 @@
+00:00:01.745 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@c3e8496, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@c3e8496}
+00:00:01.753 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:00:01.753 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:00:06.401 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@385ac109, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@385ac109}
+00:00:06.404 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:00:06.404 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule ORDER BY schedule_id DESC
+00:00:06.408 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@76efd63b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@76efd63b}
+00:00:06.409 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.409 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 18)
+00:00:06.413 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 6
+00:00:06.413 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.414 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 6
+00:00:06.416 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5465cd5a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5465cd5a}
+00:00:06.417 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.418 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 6)
+00:00:06.420 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@274b2c1f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@274b2c1f}
+00:00:06.421 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.421 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 19)
+00:00:06.425 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@13dde3c3, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@13dde3c3}
+00:00:06.425 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.425 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 6)
+00:00:06.428 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6eb581d5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6eb581d5}
+00:00:06.428 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.429 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 18)
+00:00:06.431 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 7
+00:00:06.431 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.432 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 7
+00:00:06.434 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@541fc3af, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@541fc3af}
+00:00:06.435 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.435 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 7)
+00:00:06.438 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3eee197d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3eee197d}
+00:00:06.438 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.439 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 19)
+00:00:06.442 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@34e2f84a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@34e2f84a}
+00:00:06.442 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.442 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 7)
+00:00:06.445 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4f2f76e9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4f2f76e9}
+00:00:06.445 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.445 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 18)
+00:00:06.448 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 8
+00:00:06.449 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.449 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 8
+00:00:06.452 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@53781ec9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@53781ec9}
+00:00:06.452 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.453 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 8)
+00:00:06.456 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14514baa, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14514baa}
+00:00:06.456 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.456 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 9)
+00:00:06.459 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62040053, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62040053}
+00:00:06.461 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.461 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 19)
+00:00:06.464 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@269ac849, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@269ac849}
+00:00:06.464 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.465 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 8)
+00:00:06.467 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@42f49959, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@42f49959}
+00:00:06.467 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.467 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 18)
+00:00:06.469 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 9
+00:00:06.470 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.470 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 9
+00:00:06.473 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1a09634c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1a09634c}
+00:00:06.473 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.474 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 9)
+00:00:06.476 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7fc2bc8b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7fc2bc8b}
+00:00:06.477 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.478 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 9)
+00:00:06.480 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@53f14a79, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@53f14a79}
+00:00:06.481 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.481 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 9)
+00:00:06.483 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@269d691f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@269d691f}
+00:00:06.484 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.484 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:00:06.486 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:00:06.486 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.487 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:00:06.490 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@753bf666, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@753bf666}
+00:00:06.490 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.491 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16)
+00:00:06.493 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@105155c3, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@105155c3}
+00:00:06.494 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.494 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 9)
+00:00:06.496 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@400dceb3, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@400dceb3}
+00:00:06.498 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.498 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:00:06.500 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@633f1648, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@633f1648}
+00:00:06.501 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.501 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:00:06.504 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4939a817, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4939a817}
+00:00:06.505 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.505 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16)
+00:00:06.507 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1217e82d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1217e82d}
+00:00:06.508 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.508 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:00:06.511 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:00:06.511 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.511 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:00:06.514 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@260ea2db, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@260ea2db}
+00:00:06.515 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.515 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16)
+00:00:06.519 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@34f745ff, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@34f745ff}
+00:00:06.519 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.520 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 9)
+00:00:06.523 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@683e7433, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@683e7433}
+00:00:06.523 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.523 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:00:06.527 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6be62e86, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6be62e86}
+00:00:06.528 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.528 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:00:06.531 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2e711fb2, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2e711fb2}
+00:00:06.532 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.532 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16)
+00:00:06.535 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4bc1e28d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4bc1e28d}
+00:00:06.535 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.536 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:00:06.538 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:00:06.538 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.538 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 17
+00:00:06.541 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2a07780, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2a07780}
+00:00:06.541 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.542 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 17)
+00:00:06.544 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7fa5a0a6, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7fa5a0a6}
+00:00:06.545 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.545 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 9)
+00:00:06.548 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7d5779da, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7d5779da}
+00:00:06.549 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.549 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:00:06.553 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3aa8417c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3aa8417c}
+00:00:06.553 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.553 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 17)
+00:00:06.557 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6520ee06, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6520ee06}
+00:00:06.557 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.558 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:00:06.562 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:00:06.562 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.564 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:00:06.569 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3a3887de, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3a3887de}
+00:00:06.569 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.569 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20)
+00:00:06.573 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6903f28c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6903f28c}
+00:00:06.574 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.574 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:00:06.579 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7042e9bf, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7042e9bf}
+00:00:06.580 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.580 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20)
+00:00:06.583 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@13e76ab9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@13e76ab9}
+00:00:06.584 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.584 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:00:06.586 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:00:06.587 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.587 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:00:06.590 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@158e9075, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@158e9075}
+00:00:06.590 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.591 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21)
+00:00:06.594 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1b0b83a8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1b0b83a8}
+00:00:06.594 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.595 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21)
+00:00:06.607 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@64e31a96, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@64e31a96}
+00:00:06.607 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.607 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:00:06.612 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:00:06.612 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:00:06.612 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:00:06.616 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@bb7efa8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@bb7efa8}
+00:00:06.616 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:00:06.616 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22)
+00:00:06.620 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@9172c02, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@9172c02}
+00:00:06.621 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.621 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:00:06.624 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a6639cc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a6639cc}
+00:00:06.624 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:06.625 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 21)
+00:00:06.627 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3fd6ba74, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3fd6ba74}
+00:00:06.628 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:00:06.629 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22)
+00:00:22.803 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5784ec87, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5784ec87}
+00:00:22.804 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:22.804 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2)
+00:00:22.809 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1b25fb4a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1b25fb4a}
+00:00:22.810 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.810 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 6)
+00:00:22.813 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@73e19806, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@73e19806}
+00:00:22.813 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.813 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 9)
+00:00:22.816 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@4942af6c, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@4942af6c}
+00:00:22.816 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.816 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 19)
+00:00:22.818 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@78e97a8, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@78e97a8}
+00:00:22.819 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.819 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 20)
+00:00:22.822 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@18e3b20a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@18e3b20a}
+00:00:22.822 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.822 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 21)
+00:00:22.853 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@79160372, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@79160372}
+00:00:22.854 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:00:22.855 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1)
+00:00:22.858 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@25265daf, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@25265daf}
+00:00:22.858 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:00:22.858 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 7)
+00:00:22.862 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7fa51d52, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7fa51d52}
+00:00:22.862 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.863 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 22)
+00:00:22.866 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@32a68cfe, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@32a68cfe}
+00:00:22.867 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.868 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 21)
+00:00:22.870 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6e1f12ac, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6e1f12ac}
+00:00:22.871 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.871 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 20)
+00:00:22.874 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@72a8108c, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@72a8108c}
+00:00:22.874 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:00:22.875 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 17)
+00:00:22.878 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@115dafc7, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@115dafc7}
+00:00:22.879 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.879 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 17)
+00:00:22.881 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@693e07b0, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@693e07b0}
+00:00:22.882 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.882 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 16)
+00:00:22.885 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5752484c, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5752484c}
+00:00:22.886 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.886 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 16)
+00:00:22.888 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@63d1024f, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@63d1024f}
+00:00:22.889 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:00:22.890 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 18)
+00:00:22.894 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6b7d9357, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6b7d9357}
+00:00:22.894 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.895 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 9)
+00:00:22.897 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@a4b5499, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@a4b5499}
+00:00:22.899 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.899 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 8)
+00:00:22.902 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1e7d6456, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1e7d6456}
+00:00:22.902 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.902 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 7)
+00:00:22.905 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7d9f787a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7d9f787a}
+00:00:22.905 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:00:22.906 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 6)
+00:01:12.212 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+00:03:12.886 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4cd866a8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4cd866a8}
+00:03:12.886 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:12.886 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:03:16.019 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6f47ab53, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6f47ab53}
+00:03:16.019 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:16.020 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:03:16.027 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3b4cdbf2, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3b4cdbf2}
+00:03:16.028 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:03:16.028 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:03:16.034 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1862df76, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1862df76}
+00:03:16.034 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:03:16.035 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (course_id IN (22,16))
+00:03:16.053 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6e9b326d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6e9b326d}
+00:03:16.055 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:03:16.055 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:03:16.057 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:03:16.057 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:03:16.057 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:03:16.063 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2fc449c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2fc449c}
+00:03:16.063 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:03:16.064 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22 AND user_id = 6)
+00:03:16.069 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@579d2240, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@579d2240}
+00:03:16.070 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:03:16.070 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22 AND student_id = 6)
+00:03:16.073 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@89556d7, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@89556d7}
+00:03:16.073 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:03:16.074 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:03:16.076 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:03:16.076 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:03:16.077 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:03:16.080 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@13e3fd96, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@13e3fd96}
+00:03:16.081 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:03:16.081 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:03:16.084 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5a827ee6, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5a827ee6}
+00:03:16.085 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:03:16.085 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:03:16.088 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@56d63f1c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@56d63f1c}
+00:03:16.089 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:03:16.089 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:03:16.092 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:03:16.093 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:03:16.093 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:03:16.096 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5d0a3360, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5d0a3360}
+00:03:16.097 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:03:16.097 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:03:16.100 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5505a1, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5505a1}
+00:03:16.100 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:03:16.101 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:03:34.218 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@30141064, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@30141064}
+00:03:34.218 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:03:34.218 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:10.166 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@29b9ff95, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@29b9ff95}
+00:04:10.167 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:10.167 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:10.169 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@44c81452, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@44c81452}
+00:04:10.169 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.169 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:10.182 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@793e1097, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@793e1097}
+00:04:10.183 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:04:10.183 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (course_id IN (22,16,21,20,17))
+00:04:10.187 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2dcc73e5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2dcc73e5}
+00:04:10.188 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:10.188 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:10.190 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:10.191 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:10.192 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:04:10.195 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@686ec44a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@686ec44a}
+00:04:10.195 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:10.196 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22 AND user_id = 6)
+00:04:10.199 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@52582512, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@52582512}
+00:04:10.200 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.200 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22 AND student_id = 6)
+00:04:10.205 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2d4dc875, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2d4dc875}
+00:04:10.206 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:10.206 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:10.209 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:10.210 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:10.210 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:04:10.214 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@21c0f394, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@21c0f394}
+00:04:10.214 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:10.215 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21 AND user_id = 6)
+00:04:10.218 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@64bfd641, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@64bfd641}
+00:04:10.218 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.219 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21 AND student_id = 6)
+00:04:10.222 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@10c762f4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@10c762f4}
+00:04:10.223 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:10.224 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:10.226 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:10.226 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:10.226 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:04:10.230 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6c5b2b12, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6c5b2b12}
+00:04:10.230 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:10.231 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20 AND user_id = 6)
+00:04:10.234 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@efc8bb9, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@efc8bb9}
+00:04:10.235 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.235 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20 AND student_id = 6)
+00:04:10.239 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5a2e5370, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5a2e5370}
+00:04:10.239 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:10.240 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:10.242 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:10.242 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:10.243 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 17
+00:04:10.245 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2890a48a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2890a48a}
+00:04:10.247 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:10.247 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 17 AND user_id = 6)
+00:04:10.250 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@3dd961dd, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@3dd961dd}
+00:04:10.250 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.251 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 17 AND student_id = 6)
+00:04:10.253 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1b672437, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1b672437}
+00:04:10.254 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:10.254 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:10.256 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:10.258 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:10.258 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:10.261 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@36ad96f5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@36ad96f5}
+00:04:10.262 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:10.262 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:10.265 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6258d178, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6258d178}
+00:04:10.265 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.266 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:10.268 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7e25af1b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7e25af1b}
+00:04:10.269 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:10.269 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:10.273 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:10.273 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:10.273 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:10.277 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@418e4205, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@418e4205}
+00:04:10.278 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:10.278 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:10.282 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@320c7343, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@320c7343}
+00:04:10.282 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:10.282 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:12.179 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4aaed050, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4aaed050}
+00:04:12.180 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:12.180 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:17.355 [http-nio-8032-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1c5f2c31, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1c5f2c31}
+00:04:17.356 [http-nio-8032-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:17.356 [http-nio-8032-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:17.358 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@e746b72, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@e746b72}
+00:04:17.358 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.358 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:17.363 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@11634b05, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@11634b05}
+00:04:17.364 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:04:17.364 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (course_id IN (22,16,21,20,17))
+00:04:17.369 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@541d048, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@541d048}
+00:04:17.369 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:17.370 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:17.373 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:17.373 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:17.374 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:04:17.376 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2d519c7, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2d519c7}
+00:04:17.377 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:17.377 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22 AND user_id = 6)
+00:04:17.380 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@46d20abb, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@46d20abb}
+00:04:17.380 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.380 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22 AND student_id = 6)
+00:04:17.383 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3e6a25bc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3e6a25bc}
+00:04:17.384 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:17.384 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:17.387 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:17.387 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:17.388 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:04:17.390 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@66ed5820, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@66ed5820}
+00:04:17.392 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:17.392 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21 AND user_id = 6)
+00:04:17.394 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@360049cf, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@360049cf}
+00:04:17.395 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.395 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21 AND student_id = 6)
+00:04:17.399 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@54622c8c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@54622c8c}
+00:04:17.399 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:17.399 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:17.402 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:17.402 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:17.402 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:04:17.406 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5f632eff, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5f632eff}
+00:04:17.407 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:17.407 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20 AND user_id = 6)
+00:04:17.410 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@765660ad, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@765660ad}
+00:04:17.410 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.410 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20 AND student_id = 6)
+00:04:17.413 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@57fdb43e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@57fdb43e}
+00:04:17.413 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:17.414 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:17.416 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:17.416 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:17.416 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 17
+00:04:17.419 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6b2f32f8, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6b2f32f8}
+00:04:17.420 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:17.420 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 17 AND user_id = 6)
+00:04:17.423 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@dcb676, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@dcb676}
+00:04:17.423 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.424 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 17 AND student_id = 6)
+00:04:17.427 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f0cf2d2, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f0cf2d2}
+00:04:17.427 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:17.427 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:17.430 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:17.430 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:17.431 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:17.435 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@32b2e80d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@32b2e80d}
+00:04:17.435 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:17.436 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:17.438 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5ba41b6b, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5ba41b6b}
+00:04:17.439 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.439 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:17.441 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ba74a37, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5ba74a37}
+00:04:17.441 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:17.442 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:17.443 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:17.443 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:17.443 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:17.446 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@44c6e1dc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@44c6e1dc}
+00:04:17.447 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:17.447 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:17.450 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7b7859a4, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7b7859a4}
+00:04:17.450 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:17.450 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:19.028 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@10c7bf6c, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@10c7bf6c}
+00:04:19.029 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.029 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:19.971 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7ff90b7b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7ff90b7b}
+00:04:19.971 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:19.971 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:19.981 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1112fe27, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1112fe27}
+00:04:19.981 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:19.983 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:19.988 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@27c67890, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@27c67890}
+00:04:19.988 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:04:19.989 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (course_id IN (22,16,21,20,17))
+00:04:19.994 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@23e6c4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@23e6c4}
+00:04:19.996 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:19.997 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:19.998 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:19.999 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:19.999 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:04:20.002 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@457f9ce9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@457f9ce9}
+00:04:20.003 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:20.003 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22 AND user_id = 6)
+00:04:20.006 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@654b40f6, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@654b40f6}
+00:04:20.006 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:20.008 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22 AND student_id = 6)
+00:04:20.010 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@577f3235, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@577f3235}
+00:04:20.011 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:20.011 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:20.014 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:20.015 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:20.015 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:04:20.019 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@791cad6f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@791cad6f}
+00:04:20.019 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:20.020 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21 AND user_id = 6)
+00:04:20.022 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@4f4eabd3, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@4f4eabd3}
+00:04:20.024 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:20.024 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21 AND student_id = 6)
+00:04:20.027 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@358f1d11, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@358f1d11}
+00:04:20.027 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:20.027 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:20.029 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:20.030 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:20.030 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:04:20.034 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@35d9a5f9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@35d9a5f9}
+00:04:20.034 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:20.035 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20 AND user_id = 6)
+00:04:20.038 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@368f9c96, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@368f9c96}
+00:04:20.038 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:20.039 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20 AND student_id = 6)
+00:04:20.042 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3ae965ee, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3ae965ee}
+00:04:20.043 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:20.043 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:20.046 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:20.046 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:20.047 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 17
+00:04:20.052 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6e715468, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6e715468}
+00:04:20.053 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:20.053 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 17 AND user_id = 6)
+00:04:20.057 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1bf2b7bd, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1bf2b7bd}
+00:04:20.057 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:20.058 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 17 AND student_id = 6)
+00:04:20.061 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f31669, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f31669}
+00:04:20.062 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:20.062 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:20.064 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:20.064 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:20.065 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:20.068 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@46838c99, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@46838c99}
+00:04:20.068 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:20.069 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:20.072 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7eefa10a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7eefa10a}
+00:04:20.072 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:20.072 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:20.075 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ad9c812, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ad9c812}
+00:04:20.076 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:20.076 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:20.078 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:20.081 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:20.081 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:20.084 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@8cb075a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@8cb075a}
+00:04:20.084 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:20.085 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:20.088 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@466aef7d, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@466aef7d}
+00:04:20.088 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:20.089 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:23.232 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@49f20252, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@49f20252}
+00:04:23.232 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:23.232 [http-nio-8032-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:43.886 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@9909a57, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@9909a57}
+00:04:43.886 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:04:43.887 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:04:43.888 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2333b3c4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2333b3c4}
+00:04:43.889 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.889 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:04:43.898 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6bbc8e88, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6bbc8e88}
+00:04:43.898 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:04:43.899 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (course_id IN (22,16,21,20,17))
+00:04:43.905 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62bdf659, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62bdf659}
+00:04:43.906 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:43.906 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:43.909 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:04:43.910 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:43.910 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:04:43.915 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3872c9ce, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3872c9ce}
+00:04:43.915 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:43.916 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22 AND user_id = 6)
+00:04:43.918 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@650f6297, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@650f6297}
+00:04:43.919 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.919 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22 AND student_id = 6)
+00:04:43.922 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2190fc88, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2190fc88}
+00:04:43.922 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:43.923 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:43.924 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:04:43.925 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:43.925 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:04:43.928 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@346985ea, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@346985ea}
+00:04:43.928 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:43.929 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21 AND user_id = 6)
+00:04:43.931 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@615a6828, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@615a6828}
+00:04:43.932 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.932 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21 AND student_id = 6)
+00:04:43.934 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4e5ca936, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4e5ca936}
+00:04:43.935 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:43.935 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:04:43.937 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:04:43.938 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:43.938 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:04:43.940 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@27153908, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@27153908}
+00:04:43.941 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:43.941 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20 AND user_id = 6)
+00:04:43.944 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2d284368, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2d284368}
+00:04:43.945 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.945 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20 AND student_id = 6)
+00:04:43.948 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4766f7ce, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4766f7ce}
+00:04:43.948 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:43.948 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:43.950 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:04:43.951 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:43.951 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 17
+00:04:43.953 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@28ffc91e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@28ffc91e}
+00:04:43.953 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:43.953 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 17 AND user_id = 6)
+00:04:43.957 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5809db92, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@5809db92}
+00:04:43.957 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.957 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 17 AND student_id = 6)
+00:04:43.961 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@45872370, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@45872370}
+00:04:43.961 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:43.962 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:43.964 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:43.964 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:43.964 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:43.967 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@438c7dbc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@438c7dbc}
+00:04:43.968 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:43.968 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:43.971 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@18c4f666, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@18c4f666}
+00:04:43.971 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.971 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:04:43.974 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7f07b0e3, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7f07b0e3}
+00:04:43.974 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:04:43.975 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:04:43.977 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:04:43.978 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:04:43.978 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:04:43.981 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@418851b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@418851b}
+00:04:43.981 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:04:43.982 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:04:43.983 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@f13f431, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@f13f431}
+00:04:43.984 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:04:43.984 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:05:13.466 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@46e8ff09, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@46e8ff09}
+00:05:13.466 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.466 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (student_id = 6)
+00:05:13.471 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7c7c8674, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7c7c8674}
+00:05:13.472 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:05:13.472 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (course_id IN (22,16,21,20,17))
+00:05:13.476 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7733ca30, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7733ca30}
+00:05:13.476 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:13.477 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:13.479 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:05:13.479 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:13.479 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:05:13.483 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@626f645a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@626f645a}
+00:05:13.483 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:13.483 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22 AND user_id = 6)
+00:05:13.486 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@3ac00560, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@3ac00560}
+00:05:13.486 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.487 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22 AND student_id = 6)
+00:05:13.489 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@42d47a44, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@42d47a44}
+00:05:13.489 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:13.490 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:13.491 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:05:13.492 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:13.492 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:05:13.495 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@72af6ed6, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@72af6ed6}
+00:05:13.496 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:13.496 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21 AND user_id = 6)
+00:05:13.501 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@695e91e4, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@695e91e4}
+00:05:13.501 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.502 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21 AND student_id = 6)
+00:05:13.505 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@68783f7b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@68783f7b}
+00:05:13.506 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:13.507 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:13.509 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:05:13.509 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:13.509 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:05:13.513 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@f2be0fa, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@f2be0fa}
+00:05:13.514 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:13.515 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20 AND user_id = 6)
+00:05:13.518 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7942d25f, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7942d25f}
+00:05:13.519 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.519 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20 AND student_id = 6)
+00:05:13.524 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@73d5008d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@73d5008d}
+00:05:13.524 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:13.524 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:05:13.527 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 17
+00:05:13.527 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:13.528 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 17
+00:05:13.530 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1421a986, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1421a986}
+00:05:13.532 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:13.532 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 17 AND user_id = 6)
+00:05:13.537 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7de329cd, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7de329cd}
+00:05:13.537 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.538 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 17 AND student_id = 6)
+00:05:13.542 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6ff3878f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6ff3878f}
+00:05:13.543 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:13.544 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:05:13.546 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:05:13.546 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:13.546 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:05:13.549 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@63c8fd25, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@63c8fd25}
+00:05:13.550 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:13.551 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:05:13.553 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@556cd92f, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@556cd92f}
+00:05:13.554 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.555 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:05:13.558 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@47b48043, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@47b48043}
+00:05:13.559 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:13.559 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 17)
+00:05:13.561 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = 16
+00:05:13.562 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:13.563 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 16
+00:05:13.565 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@182084ff, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@182084ff}
+00:05:13.565 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:13.565 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 16 AND user_id = 6)
+00:05:13.568 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6e8a3931, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6e8a3931}
+00:05:13.568 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:13.569 [http-nio-8032-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 16 AND student_id = 6)
+00:05:27.957 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ca0eaa4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ca0eaa4}
+00:05:27.958 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:27.958 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:05:29.142 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@63dd186e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@63dd186e}
+00:05:29.143 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+00:05:29.143 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_type = 'college')
+00:05:42.409 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1f778422, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1f778422}
+00:05:42.410 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:05:42.410 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 7) ORDER BY schedule_id DESC
+00:05:42.415 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@20b34ddf, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@20b34ddf}
+00:05:42.416 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.416 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:42.419 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:05:42.419 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:42.420 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:05:42.422 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5dd8b623, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5dd8b623}
+00:05:42.423 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:42.423 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20)
+00:05:42.426 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1b7cd2a1, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1b7cd2a1}
+00:05:42.426 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.427 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:05:42.429 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6163495, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6163495}
+00:05:42.430 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.430 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:05:42.432 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@65614086, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@65614086}
+00:05:42.432 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:42.433 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20)
+00:05:42.434 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@709b96ec, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@709b96ec}
+00:05:42.435 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.435 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:42.437 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:05:42.437 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:42.437 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:05:42.440 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@678dbe7e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@678dbe7e}
+00:05:42.440 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:42.441 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21)
+00:05:42.443 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@456e0390, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@456e0390}
+00:05:42.443 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.444 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:05:42.446 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@659fee68, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@659fee68}
+00:05:42.447 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:42.447 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21)
+00:05:42.449 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7ff3d3cd, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7ff3d3cd}
+00:05:42.450 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.450 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:42.452 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:05:42.452 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:42.453 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:05:42.456 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@10888fc9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@10888fc9}
+00:05:42.456 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:42.457 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22)
+00:05:42.459 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@b678b7a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@b678b7a}
+00:05:42.460 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.460 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:05:42.462 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@aceec09, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@aceec09}
+00:05:42.463 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:42.463 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 21)
+00:05:42.466 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@285cd0f6, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@285cd0f6}
+00:05:42.466 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:42.466 [http-nio-8032-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22)
+00:05:46.986 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@73476749, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@73476749}
+00:05:46.986 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:05:46.986 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 7) ORDER BY schedule_id DESC
+00:05:46.992 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@f620974, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@f620974}
+00:05:46.993 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:46.994 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:46.996 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:05:46.997 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:46.997 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:05:47.000 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4c272ae9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4c272ae9}
+00:05:47.001 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:47.001 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20)
+00:05:47.004 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@74c8c7e1, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@74c8c7e1}
+00:05:47.004 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.004 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:05:47.007 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2812fc5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2812fc5}
+00:05:47.008 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.008 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:05:47.011 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2da00528, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2da00528}
+00:05:47.011 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:47.011 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20)
+00:05:47.014 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@d8abe46, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@d8abe46}
+00:05:47.014 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.014 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:47.018 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:05:47.018 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:47.019 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:05:47.021 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@24cc98a0, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@24cc98a0}
+00:05:47.021 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:47.023 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21)
+00:05:47.024 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@40ba6160, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@40ba6160}
+00:05:47.026 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.026 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:05:47.029 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4e728e91, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4e728e91}
+00:05:47.030 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:47.030 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21)
+00:05:47.032 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1d2f97d4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1d2f97d4}
+00:05:47.033 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.033 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:05:47.035 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:05:47.036 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:05:47.036 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:05:47.038 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7e0c63d4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7e0c63d4}
+00:05:47.039 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:05:47.039 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22)
+00:05:47.041 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@36bc8508, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@36bc8508}
+00:05:47.042 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.042 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:05:47.045 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6edfe29, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6edfe29}
+00:05:47.046 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:05:47.046 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 21)
+00:05:47.051 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3d2ee16d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3d2ee16d}
+00:05:47.052 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:05:47.052 [http-nio-8032-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22)
+00:06:06.886 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@a510c47, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@a510c47}
+00:06:06.887 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:06:06.889 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 7 AND ((start_time BETWEEN '2025-5-30 0:06:06' AND '2025-5-30 0:06:06') OR (end_time BETWEEN '2025-5-30 0:06:06' AND '2025-5-30 0:06:06') OR (start_time <= '2025-5-30 0:06:06' AND end_time >= '2025-5-30 0:06:06')) AND schedule_id <> 19)
+00:06:06.901 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {param1=SysSchedule(scheduleId=19, userId=7, courseId=20, startTime=Wed Apr 16 08:00:00 CST 2025, endTime=Wed Apr 16 10:00:00 CST 2025, uploadResource=null, content=qdcasdsadsa), et=SysSchedule(scheduleId=19, userId=7, courseId=20, startTime=Wed Apr 16 08:00:00 CST 2025, endTime=Wed Apr 16 10:00:00 CST 2025, uploadResource=null, content=qdcasdsadsa)}
+00:06:06.902 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.updateById
+00:06:06.903 [http-nio-8032-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.updateById:UPDATE sys_schedule SET user_id=7, course_id=20, start_time='2025-5-30 0:06:06', end_time='2025-5-30 0:06:06', content='qdcasdsadsa', update_time= WHERE schedule_id=19
+00:06:06.945 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@422e3061, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@422e3061}
+00:06:06.946 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:06:06.946 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 7) ORDER BY schedule_id DESC
+00:06:06.951 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@58f016f5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@58f016f5}
+00:06:06.951 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:06.951 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:06:06.953 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 20
+00:06:06.954 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:06:06.954 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 20
+00:06:06.957 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@c6e49b1, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@c6e49b1}
+00:06:06.957 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:06:06.958 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 20)
+00:06:06.962 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@b8fd18e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@b8fd18e}
+00:06:06.962 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:06.963 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 20)
+00:06:06.965 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@46b405bc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@46b405bc}
+00:06:06.966 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:06.966 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:06:06.970 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2615ff96, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2615ff96}
+00:06:06.970 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:06:06.970 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 20)
+00:06:06.973 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@47d18814, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@47d18814}
+00:06:06.973 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:06.973 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:06:06.975 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 21
+00:06:06.976 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:06:06.976 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 21
+00:06:06.979 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@792262df, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@792262df}
+00:06:06.979 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:06:06.979 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 21)
+00:06:06.982 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@12e843c5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@12e843c5}
+00:06:06.982 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:06.983 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:06:06.986 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7647cf80, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7647cf80}
+00:06:06.986 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:06:06.987 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 21)
+00:06:06.988 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2745bd03, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2745bd03}
+00:06:06.989 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:06.989 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 7)
+00:06:06.993 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = 22
+00:06:06.995 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById
+00:06:06.995 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectCourseById:select * from sys_course where course_id = 22
+00:06:06.998 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a72adf5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a72adf5}
+00:06:06.999 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectList
+00:06:06.999 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectList:SELECT choice_id,student_id,course_id,score,evaluate,upload_resource,create_time,update_time FROM sys_choice WHERE (course_id = 22)
+00:06:07.001 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5319cd7, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5319cd7}
+00:06:07.002 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:07.002 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 6)
+00:06:07.007 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5cdc00ff, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@5cdc00ff}
+00:06:07.007 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:06:07.007 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (user_id = 21)
+00:06:07.011 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3a0ba39f, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3a0ba39f}
+00:06:07.011 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysSubmitMapper.selectList
+00:06:07.011 [http-nio-8032-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysSubmitMapper.selectList:SELECT user_id,course_id,submit_resource FROM sys_submit WHERE (course_id = 22)
+00:06:12.224 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+00:08:18.111 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2d703bc1, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2d703bc1}
+00:08:18.111 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:08:18.112 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2)
+00:08:18.115 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1dec9534, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@1dec9534}
+00:08:18.117 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.117 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 6)
+00:08:18.122 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@f8db9d1, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@f8db9d1}
+00:08:18.122 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.123 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 9)
+00:08:18.125 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@70b54def, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@70b54def}
+00:08:18.125 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.126 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 19)
+00:08:18.128 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@435c81b1, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@435c81b1}
+00:08:18.129 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.129 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 20)
+00:08:18.131 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@68691bba, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@68691bba}
+00:08:18.131 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.132 [http-nio-8032-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (student_id = 21)
+00:08:18.158 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@63ea3163, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@63ea3163}
+00:08:18.158 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+00:08:18.159 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1)
+00:08:18.161 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@13129886, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@13129886}
+00:08:18.163 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:08:18.163 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 7)
+00:08:18.167 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2da44606, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2da44606}
+00:08:18.167 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.168 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 22)
+00:08:18.170 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6e92b083, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@6e92b083}
+00:08:18.170 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.170 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 21)
+00:08:18.172 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@49d346ef, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@49d346ef}
+00:08:18.172 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.172 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 20)
+00:08:18.175 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@47e61e7e, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@47e61e7e}
+00:08:18.175 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:08:18.176 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 17)
+00:08:18.180 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@47f6b895, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@47f6b895}
+00:08:18.180 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.181 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 17)
+00:08:18.184 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7a3c582a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@7a3c582a}
+00:08:18.185 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.185 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 16)
+00:08:18.187 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@63bfd860, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@63bfd860}
+00:08:18.188 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.188 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 16)
+00:08:18.190 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@52aaa15e, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@52aaa15e}
+00:08:18.190 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.scheduleserver.mapper.SysScheduleMapper.selectList
+00:08:18.191 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.scheduleserver.mapper.SysScheduleMapper.selectList:SELECT schedule_id,user_id,course_id,start_time,end_time,upload_resource,content,create_time,update_time FROM sys_schedule WHERE (user_id = 18)
+00:08:18.193 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@504df84a, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@504df84a}
+00:08:18.195 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.196 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 9)
+00:08:18.198 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@72b25524, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@72b25524}
+00:08:18.199 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.199 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 8)
+00:08:18.211 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@df7fed0, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@df7fed0}
+00:08:18.213 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.215 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 7)
+00:08:18.226 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2a370e9c, param1=com.baomidou.mybatisplus.core.conditions.query.QueryWrapper@2a370e9c}
+00:08:18.227 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysChoiceMapper.selectCount
+00:08:18.227 [http-nio-8032-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysChoiceMapper.selectCount:SELECT COUNT( * ) FROM sys_choice WHERE (course_id = 6)

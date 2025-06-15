@@ -1,0 +1,356 @@
+23:44:45.833 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+23:44:49.219 [main] INFO  o.e.a.AuthServerApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:44:50.079 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8035"]
+23:44:50.080 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:44:50.080 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.43]
+23:44:50.081 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+23:44:50.090 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:44:50.090 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:44:50.093 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+23:44:50.224 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:44:53.389 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:44:53.392 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:44:57.930 [main] INFO  c.n.d.DiscoveryClient - [<init>,372] - Initializing Eureka in region us-east-1
+23:44:58.517 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+23:44:58.517 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+23:44:58.568 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+23:44:58.568 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+23:44:58.769 [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1007] - Disable delta property : false
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1008] - Single vip registry refresh property : null
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1009] - Force full registry fetch : false
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1010] - Application is null : false
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1011] - Registered Applications size is zero : true
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1013] - Application version is -1: true
+23:44:59.146 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1097] - Getting all instance registry info from the eureka server
+23:44:59.196 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1106] - The response status is 200
+23:44:59.197 [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1321] - Starting heartbeat executor: renew interval is: 30
+23:44:59.199 [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:44:59.200 [main] INFO  c.n.d.DiscoveryClient - [<init>,492] - Discovery Client initialized at timestamp 1748533499200 with initial instances count: 1
+23:44:59.204 [main] INFO  c.n.d.DiscoveryClient - [notify,1355] - Saw local status change event StatusChangeEvent [timestamp=1748533499204, current=UP, previous=STARTING]
+23:44:59.205 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8035"]
+23:44:59.206 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,873] - DiscoveryClient_AUTH-SERVICE/localhost:auth-service:8035: registering service...
+23:44:59.233 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,882] - DiscoveryClient_AUTH-SERVICE/localhost:auth-service:8035 - registration status: 204
+23:45:00.895 [main] INFO  o.e.a.AuthServerApplication - [logStarted,61] - Started AuthServerApplication in 16.866 seconds (JVM running for 17.79)
+23:45:00.900 [main] INFO  o.e.a.AuthServerApplication - [main,20] - (♥◠‿◠)ﾉﾞ  鉴权服务启动成功：时间2025-05-29 23:45:00   ლ(´ڡ`ლ)ﾞ  
+
+23:48:53.180 [http-nio-8035-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:48:53.501 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3fe25c92, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3fe25c92}
+23:48:53.502 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:48:53.511 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (account = 'admin')
+23:48:53.536 [http-nio-8035-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:49:59.157 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+23:51:52.617 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@139700c9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@139700c9}
+23:51:52.617 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:51:52.618 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (account = 'admin')
+23:51:52.619 [http-nio-8035-exec-3] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:53:03.353 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,873] - DiscoveryClient_AUTH-SERVICE/localhost:auth-service:8035: registering service...
+23:53:03.360 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,882] - DiscoveryClient_AUTH-SERVICE/localhost:auth-service:8035 - registration status: 204
+23:53:05.361 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,935] - Shutting down DiscoveryClient ...
+23:53:08.365 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,971] - Unregistering ...
+23:53:12.488 [SpringContextShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - [execute,93] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 more
+
+23:53:16.572 [SpringContextShutdownHook] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient - [execute,84] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=java.net.ConnectException: Connection refused: connect stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 43 more
+
+23:53:16.578 [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,960] - Completed shut down of DiscoveryClient
+23:55:47.120 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+23:55:50.784 [main] INFO  o.e.a.AuthServerApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+23:55:51.698 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8035"]
+23:55:51.698 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:55:51.698 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.43]
+23:55:51.698 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+23:55:51.698 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:55:51.699 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:55:51.702 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+23:55:51.826 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:55:55.626 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:55:55.628 [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:56:01.034 [main] INFO  c.n.d.DiscoveryClient - [<init>,372] - Initializing Eureka in region us-east-1
+23:56:01.529 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+23:56:01.529 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+23:56:01.576 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+23:56:01.576 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+23:56:01.788 [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1007] - Disable delta property : false
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1008] - Single vip registry refresh property : null
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1009] - Force full registry fetch : false
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1010] - Application is null : false
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1011] - Registered Applications size is zero : true
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,1013] - Application version is -1: true
+23:56:02.314 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1097] - Getting all instance registry info from the eureka server
+23:56:02.371 [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1106] - The response status is 200
+23:56:02.372 [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1321] - Starting heartbeat executor: renew interval is: 30
+23:56:02.373 [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:56:02.376 [main] INFO  c.n.d.DiscoveryClient - [<init>,492] - Discovery Client initialized at timestamp 1748534162376 with initial instances count: 1
+23:56:02.380 [main] INFO  c.n.d.DiscoveryClient - [notify,1355] - Saw local status change event StatusChangeEvent [timestamp=1748534162380, current=UP, previous=STARTING]
+23:56:02.381 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8035"]
+23:56:02.381 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,873] - DiscoveryClient_AUTH-SERVICE/localhost:auth-service:8035: registering service...
+23:56:02.412 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,882] - DiscoveryClient_AUTH-SERVICE/localhost:auth-service:8035 - registration status: 204
+23:56:04.291 [main] INFO  o.e.a.AuthServerApplication - [logStarted,61] - Started AuthServerApplication in 18.975 seconds (JVM running for 19.857)
+23:56:04.295 [main] INFO  o.e.a.AuthServerApplication - [main,20] - (♥◠‿◠)ﾉﾞ  鉴权服务启动成功：时间2025-05-29 23:56:04   ლ(´ڡ`ლ)ﾞ  
+
+23:56:38.787 [http-nio-8035-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:56:38.860 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2adbf286, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2adbf286}
+23:56:38.860 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:56:38.862 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (account = 'admin')
+23:56:38.867 [http-nio-8035-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:56:39.009 [http-nio-8035-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+23:56:39.560 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62c3eb77, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62c3eb77}
+23:56:39.560 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:56:39.561 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (status = 0) ORDER BY create_time DESC
+23:56:49.935 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {param1=SysUser(userId=21, roleId=null, account=null, name=null, sex=null, phone=null, password=null, reviewStatus=1, status=null, deleted=null, remark=null), et=SysUser(userId=21, roleId=null, account=null, name=null, sex=null, phone=null, password=null, reviewStatus=1, status=null, deleted=null, remark=null)}
+23:56:49.936 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.updateById
+23:56:49.936 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.updateById:UPDATE sys_user SET review_status=1, update_time= WHERE user_id=21 AND deleted=0
+23:56:50.009 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3ccb16db, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3ccb16db}
+23:56:50.011 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:56:50.012 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (status = 0) ORDER BY create_time DESC
+23:57:06.117 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@71a3b641, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@71a3b641}
+23:57:06.118 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:57:06.119 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (status = 0) ORDER BY create_time DESC
+23:57:06.864 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6b814146, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6b814146}
+23:57:06.865 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:57:06.866 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (status = 0) ORDER BY create_time DESC
+23:57:09.093 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@38bd39e2, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@38bd39e2}
+23:57:09.094 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:57:09.094 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:57:09.107 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7d5c2336, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7d5c2336}
+23:57:09.108 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:57:09.110 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:57:09.120 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@114a37a5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@114a37a5}
+23:57:09.120 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:57:09.121 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:57:09.130 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1ef6c5bc, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1ef6c5bc}
+23:57:09.131 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:57:09.133 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:57:22.679 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1a66ebb5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1a66ebb5}
+23:57:22.679 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:57:22.679 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:57:24.908 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a56d8be, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@a56d8be}
+23:57:24.908 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:57:24.909 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:57:24.917 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6ff217dd, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6ff217dd}
+23:57:24.918 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:57:24.918 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:57:24.925 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2820b014, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2820b014}
+23:57:24.926 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:57:24.926 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:57:24.934 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4bb6d393, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4bb6d393}
+23:57:24.934 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:57:24.935 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:57:26.309 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@928602b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@928602b}
+23:57:26.311 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:57:26.311 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:58:15.527 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6498492d, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6498492d}
+23:58:15.529 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:58:15.530 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:58:21.005 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@58bab117, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@58bab117}
+23:58:21.005 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:58:21.006 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:58:27.056 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1cae3a73, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1cae3a73}
+23:58:27.057 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:58:27.058 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:58:44.147 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@320d1d99, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@320d1d99}
+23:58:44.148 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:58:44.149 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:58:58.061 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14bc7d0b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@14bc7d0b}
+23:58:58.062 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:58:58.062 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:58:58.070 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@272a1576, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@272a1576}
+23:58:58.071 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:58:58.072 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:58:58.078 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7c877f4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7c877f4}
+23:58:58.079 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:58:58.080 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:58:58.085 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7960adbe, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7960adbe}
+23:58:58.087 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:58:58.087 [http-nio-8035-exec-8] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:59:15.595 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ec71e59, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@ec71e59}
+23:59:15.597 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:15.597 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:59:15.604 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2b36fd92, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2b36fd92}
+23:59:15.605 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:59:15.606 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:59:15.615 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3d9fa0d4, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3d9fa0d4}
+23:59:15.615 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:15.616 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:59:15.620 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6deca2a9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@6deca2a9}
+23:59:15.621 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:15.622 [http-nio-8035-exec-6] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:59:20.017 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7e43e842, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7e43e842}
+23:59:20.018 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:20.018 [http-nio-8035-exec-4] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (status = 0) ORDER BY create_time DESC
+23:59:23.795 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7b42104e, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@7b42104e}
+23:59:23.797 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:23.798 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:59:23.804 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@cc66fc5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@cc66fc5}
+23:59:23.805 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:59:23.805 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:59:23.813 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62d4eab9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@62d4eab9}
+23:59:23.814 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:23.814 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:59:23.820 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@289a1e78, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@289a1e78}
+23:59:23.821 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:23.822 [http-nio-8035-exec-5] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:59:33.427 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@224fca85, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@224fca85}
+23:59:33.428 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:33.429 [http-nio-8035-exec-9] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:59:38.138 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2ee999d9, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2ee999d9}
+23:59:38.139 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:38.140 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:59:38.150 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f8ac392, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@3f8ac392}
+23:59:38.151 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:59:38.151 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:59:38.158 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@701e303a, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@701e303a}
+23:59:38.158 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:38.158 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:59:38.164 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4072feda, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4072feda}
+23:59:38.165 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:38.165 [http-nio-8035-exec-10] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:59:39.119 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1d292101, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@1d292101}
+23:59:39.119 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:39.120 [http-nio-8035-exec-1] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:59:40.540 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2c86da7b, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@2c86da7b}
+23:59:40.541 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:40.541 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 2 AND review_status = 2) ORDER BY create_time DESC
+23:59:40.547 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@277cec27, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@277cec27}
+23:59:40.547 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.authserver.mapper.SysStudentMapper.selectList
+23:59:40.548 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.authserver.mapper.SysStudentMapper.selectList:SELECT student_id,user_id,college,major,grade,create_time,update_time FROM sys_student WHERE (user_id IN (20,19,6,9))
+23:59:40.554 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@35bd49dd, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@35bd49dd}
+23:59:40.555 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:40.555 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('0','2','3') AND dict_type = 'college')
+23:59:40.560 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@223c2929, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@223c2929}
+23:59:40.561 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysDictDataMapper.selectList
+23:59:40.561 [http-nio-8035-exec-2] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysDictDataMapper.selectList:SELECT dict_code,dict_sort,dict_label,dict_value,dict_type,status,remark,create_time,update_time FROM sys_dict_data WHERE (dict_value IN ('1','5','7') AND dict_type = 'major')
+23:59:42.831 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@51bcb3b5, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@51bcb3b5}
+23:59:42.833 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:42.833 [http-nio-8035-exec-3] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
+23:59:56.901 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,40] - parameter = {ew=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4b4bc916, param1=com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper@4b4bc916}
+23:59:56.901 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,43] - sqlId = org.example.core.mapper.SysUserMapper.selectList
+23:59:56.902 [http-nio-8035-exec-7] INFO  sys-sql - [logInfo,48] - 完整的sql:org.example.core.mapper.SysUserMapper.selectList:SELECT user_id,role_id,account,name,sex,phone,password,review_status,status,deleted,remark,create_time,update_time FROM sys_user WHERE deleted=0 AND (role_id = 1 AND review_status = 2) ORDER BY create_time DESC
